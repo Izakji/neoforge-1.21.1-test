@@ -1,0 +1,17 @@
+{
+  "itemGroup.testmod": "Example Mod Tab",
+  "itemGroup.testmod.bismuth_items_tab": "Bismuth Items",
+  "itemGroup.testmod.bismuth_blocks_tab": "Bismuth Blocks",
+  "block.testmod.example_block": "Example Block",
+  "item.testmod.example_item": "Example Item",
+  "item.testmod.bismuth": "Bismuth",
+  "item.testmod.raw_bismuth": "Raw Bismuth",
+
+  "testmod.configuration.title": "Example Mod Configs",
+  "testmod.configuration.section.testmod.common.toml": "Example Mod Configs",
+  "testmod.configuration.section.testmod.common.toml.title": "Example Mod Configs",
+  "testmod.configuration.items": "Item List",
+  "testmod.configuration.logDirtBlock": "Log Dirt Block",
+  "testmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "testmod.configuration.magicNumber": "Magic Number"
+}
