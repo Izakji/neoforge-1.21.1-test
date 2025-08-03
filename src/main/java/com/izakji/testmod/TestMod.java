@@ -1,5 +1,6 @@
 package com.izakji.testmod;
 
+import com.izakji.testmod.block.ModBlocks;
 import com.izakji.testmod.item.ModItems;
 import com.izakji.testmod.item.TestModCreativeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -39,6 +40,7 @@ public class TestMod {
         TestModCreativeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -54,8 +56,8 @@ public class TestMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BISMUTH);
-            event.accept(ModItems.RAW_BISMUTH);
+            event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
         }
     }
 
