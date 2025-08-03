@@ -1,0 +1,10 @@
+{
+  "item.testmod.black_opal": "Black Opal",
+  "item.testmod.raw_black_opal": "Raw Black Opal Izakji me la pelass",
+
+  "block.testmod.black_opal_block": "Black Opal Block",
+  "block.testmod.raw_black_opal_block": "Raw Black Opal Block",
+
+  "itemGroup.black_opal_blocks_tabs": "Black Opal Blocks",
+  "itemGroup.black_opal_items_tabs": "Raw Black Opal Items"
+}

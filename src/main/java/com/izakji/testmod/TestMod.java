@@ -1,5 +1,11 @@
 package com.izakji.testmod;
 
+import com.izakji.testmod.block.ModBlocks;
+import com.izakji.testmod.item.Moditems;
+import com.izakji.testmod.item.TestModCreativeModeTabs;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.MossBlock;
+import net.neoforged.neoforge.common.CreativeModeTabRegistry;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,12 +34,17 @@ public class TestMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        TestModCreativeModeTabs.register(modEventBus);
+
+        Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        // Register the item to a creative tab
+        // Register the com.izakji.testmod.item to a creative tab
         modEventBus.addListener(this::addCreative);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -44,9 +55,12 @@ public class TestMod {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the example block com.izakji.testmod.item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(Moditems.BLACK_OPAL);
+            event.accept(Moditems.RAW_BLACK_OPAL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
