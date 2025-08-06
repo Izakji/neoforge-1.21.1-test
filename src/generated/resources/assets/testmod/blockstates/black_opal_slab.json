@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testmod:block/black_opal_slab"
+    },
+    "type=double": {
+      "model": "testmod:block/black_opal_block"
+    },
+    "type=top": {
+      "model": "testmod:block/black_opal_slab_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// 1.21.1	2025-08-05T08:02:56.997099	Tags for minecraft:block mod id testmod
+58f09120da455250807fe754fb456db32a953af6 data/minecraft/tags/block/fences.json
+35b7018bacfd38dca30c8910d0a30f4c2f919dbd data/minecraft/tags/block/fence_gates.json
+c82e836b08ec5d602fe704f7bcc2be8a92401ebd data/minecraft/tags/block/mineable/pickaxe.json
+e56b935dc2be4a9e854dd47c15dee868b6d6100d data/minecraft/tags/block/needs_diamond_tool.json
+a4f141d0aa0c02280120cc0af17d1f984fd739b1 data/minecraft/tags/block/needs_iron_tool.json
+2da6cdf5606d865c7bd8955da1d6dbe3aef38904 data/minecraft/tags/block/walls.json
+2be3be20fa73e3251675e9426a76d02e04b855f2 data/testmod/tags/block/incorrect_for_black_opal_tool.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/testmod/tags/block/mineable/paxel.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/testmod/tags/block/needs_black_opal_tool.json

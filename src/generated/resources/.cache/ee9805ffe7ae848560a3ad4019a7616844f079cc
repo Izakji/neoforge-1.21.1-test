@@ -1,0 +1,4 @@
+// 1.21.1	2025-08-06T07:00:21.0479567	Tags for minecraft:item mod id testmod
+83b96c07c37d724c2ae583ea45f06df63b486114 data/minecraft/tags/item/swords.json
+f9640b7560bf390d5ab6932563675b6e0e957ee5 data/minecraft/tags/item/trimmable_armor.json
+745f37f73ca10aee1ffa7d668b56f094ac613107 data/testmod/tags/item/transformable_items.json
