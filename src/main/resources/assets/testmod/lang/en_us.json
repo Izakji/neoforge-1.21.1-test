@@ -46,6 +46,7 @@
   "item.testmod.metal_detector": "Metal Detector",
   "item.testmod.data_tablet": "Data Tablet",
   "item.testmod.metal_detector.no_valuables": "No valuables found",
+  "item.testmod.kaupen_bow": "Kaupen Bow",
   "tooltip.testmod.chainsaw.tooltip.shift": "Press §eShift§r fro more information!",
   "tooltip.testmod.chainsaw.tooltip.1": "This chainsaw is awesome and will cut down trees!",
   "tooltip.testmod.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",

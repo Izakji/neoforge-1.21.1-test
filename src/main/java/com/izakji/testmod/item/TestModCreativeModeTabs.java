@@ -41,6 +41,7 @@ public class TestModCreativeModeTabs {
                         output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE);
                         output.accept(ModItems.DATA_TABLET);
                         output.accept(ModItems.METAL_DETECTOR);
+                        output.accept(ModItems.KAUPEN_BOW);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TABS =
