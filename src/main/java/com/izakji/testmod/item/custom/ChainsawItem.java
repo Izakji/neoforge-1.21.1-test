@@ -1,5 +1,6 @@
 package com.izakji.testmod.item.custom;
 
+import com.izakji.testmod.component.ModDataComponentTypes;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -27,10 +28,13 @@ public class ChainsawItem extends Item {
         if(!level.isClientSide()) {
             if(level.getBlockState(context.getClickedPos()).is(BlockTags.LOGS)) {
                 level.destroyBlock(context.getClickedPos(), true, context.getPlayer());
+
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) context.getPlayer()),
                         item -> {
                     Objects.requireNonNull(context.getPlayer()).onEquippedItemBroken(item, EquipmentSlot.MAINHAND);
                 });
+
+                context.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), context.getClickedPos());
             }
         }
         return InteractionResult.CONSUME;
@@ -44,6 +48,11 @@ public class ChainsawItem extends Item {
         } else {
             tooltipComponents.add(Component.translatable("tooltip.testmod.chainsaw.tooltip.shift"));
         }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltipComponents.add(Component.literal("Last tree was chopped at " + stack.get(ModDataComponentTypes.COORDINATES)));
+        }
+
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 }

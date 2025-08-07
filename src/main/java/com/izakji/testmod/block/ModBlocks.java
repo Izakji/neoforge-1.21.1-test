@@ -1,6 +1,7 @@
 package com.izakji.testmod.block;
 
 import com.izakji.testmod.TestMod;
+import com.izakji.testmod.block.custom.BlackOpalLampBlock;
 import com.izakji.testmod.block.custom.MagicBlock;
 import com.izakji.testmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -67,6 +68,11 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> BLACK_OPAL_TRAPDOOR = registerBlock("black_opal_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> BLACK_OPAL_LAMP = registerBlock("black_opal_lamp",
+            () -> new BlackOpalLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .sound(SoundType.GLASS)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(BlackOpalLampBlock.CLICKED) ? 15 : 0)));
 
 
     private static <T extends Block>DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

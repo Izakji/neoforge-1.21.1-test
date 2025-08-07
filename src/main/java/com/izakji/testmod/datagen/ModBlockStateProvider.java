@@ -2,9 +2,12 @@ package com.izakji.testmod.datagen;
 
 import com.izakji.testmod.TestMod;
 import com.izakji.testmod.block.ModBlocks;
+import com.izakji.testmod.block.custom.BlackOpalLampBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -44,6 +47,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         doorBlockWithRenderType(((DoorBlock) ModBlocks.BLACK_OPAL_DOOR.get()), modLoc("block/black_opal_door_bottom"), modLoc("block/black_opal_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.BLACK_OPAL_TRAPDOOR.get()), modLoc("block/black_opal_trapdoor"), true, "cutout");
+
+        customLamp();;
     }
 
     private void blockWithItem(DeferredBlock<Block> deferredBlock) {
@@ -56,5 +61,19 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockItem(DeferredBlock<Block> deferredBlock, String appendix) {
         simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("testmod:block/" + deferredBlock.getId().getPath() + appendix));
+    }
+
+    private void customLamp() {
+        getVariantBuilder(ModBlocks.BLACK_OPAL_LAMP.get()).forAllStates(state -> {
+            if(state.getValue(BlackOpalLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("black_opal_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(TestMod.MOD_ID, "block/" + "black_opal_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("black_opal_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(TestMod.MOD_ID, "block/" + "black_opal_lamp_off")))};
+            }
+        });
+        simpleBlockItem(ModBlocks.BLACK_OPAL_LAMP.get(), models().cubeAll("black_opal_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(TestMod.MOD_ID, "block/" + "black_opal_lamp_on")));
     }
 }

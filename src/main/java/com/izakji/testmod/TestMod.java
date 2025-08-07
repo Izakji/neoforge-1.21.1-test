@@ -1,6 +1,7 @@
 package com.izakji.testmod;
 
 import com.izakji.testmod.block.ModBlocks;
+import com.izakji.testmod.component.ModDataComponentTypes;
 import com.izakji.testmod.item.ModArmorMaterials;
 import com.izakji.testmod.item.ModItems;
 import com.izakji.testmod.item.TestModCreativeModeTabs;
@@ -39,6 +40,7 @@ public class TestMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModArmorMaterials.register(modEventBus);
+        ModDataComponentTypes.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-05T21:05:57.2737034	Recipes
+// 1.21.1	2025-08-06T22:53:24.8068912	Recipes
 7438a8607e44fc5489963dab2305a7c7eb5f6b33 data/testmod/advancement/recipes/building_blocks/black_opal_slab.json
 373e094cb37b664d340280ff3242cb87e2705187 data/testmod/advancement/recipes/building_blocks/black_opal_stairs.json
 5e9307a08f797edbc9fd298aed363f88579b9bcc data/testmod/advancement/recipes/building_blocks/black_opal_wall.json
@@ -21,6 +21,7 @@ a299029ddc6ff0a9f23d90a475da25c206aa602d data/testmod/advancement/recipes/misc/b
 a9a3afc93602f9ad9fc8a79c5593fc57d684fe8b data/testmod/advancement/recipes/misc/black_opal_helmet.json
 a7e01f6fbe09d8f7b55022117f0b05d5e24d7b4e data/testmod/advancement/recipes/misc/black_opal_leggings.json
 6a822f671999c2e409956f37cce41c60add75ff9 data/testmod/advancement/recipes/misc/black_opal_sword.json
+606538b5389a5a6384326c9eeae378b4021a09e5 data/testmod/advancement/recipes/misc/kaupen.json
 a71c1589207136aa3bf04ce4cbe07d538f73223d data/testmod/advancement/recipes/redstone/black_opal_button.json
 ea25aa85cd89bcb2c2d8e594a5c3e3793d78d0d8 data/testmod/advancement/recipes/redstone/black_opal_door.json
 60ea2b1b3122e07b3acf4957713013ef9246d621 data/testmod/advancement/recipes/redstone/black_opal_fence_gate.json
@@ -53,3 +54,4 @@ e084704d2b49496df70a11788a38243dbde6841c data/testmod/recipe/black_opal_pressure
 9910b7fae6ea361a8093bad920b00db3bf5fb409 data/testmod/recipe/black_opal_sword.json
 22a1b4aab9507fd768e89893be1d23680f21a157 data/testmod/recipe/black_opal_trapdoor.json
 b073cf9f1abaef62e4077eabafcbed29cf75baa3 data/testmod/recipe/black_opal_wall.json
+87e4c9d6b4db81b4653c128583aa7331e62b7107 data/testmod/recipe/kaupen.json

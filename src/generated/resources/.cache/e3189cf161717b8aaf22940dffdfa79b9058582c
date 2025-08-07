@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-04T22:16:39.9086966	Block States: testmod
+// 1.21.1	2025-08-07T11:35:00.6665843	Block States: testmod
 1e7d50b358018eaaa3ba47d761d6a79c0a1859c6 assets/testmod/blockstates/black_opal_block.json
 501a0111c379b01d4d44f23540c3b8d111a57a74 assets/testmod/blockstates/black_opal_button.json
 1dd59b869d771c09e17c434cfe87529a4dfb87a9 assets/testmod/blockstates/black_opal_deepslate_ore.json
@@ -6,6 +6,7 @@ f8bf7cc7c624836753454b4521f62e2d591f3d5a assets/testmod/blockstates/black_opal_d
 2657b22c07343e36f3d43b68ac652ec76f7e4f89 assets/testmod/blockstates/black_opal_end_ore.json
 d1e21f280bee129c1f7ad923854e064447bef99d assets/testmod/blockstates/black_opal_fence.json
 b6d272eabc1772b9347e147615d3f640cdf056fc assets/testmod/blockstates/black_opal_fence_gate.json
+baa91d4ce763c845822df51a4d9edab422efdcb9 assets/testmod/blockstates/black_opal_lamp.json
 30efa520e1f4048b329dc1652b0704037710478b assets/testmod/blockstates/black_opal_nether_ore.json
 82596224a187aa3cc6dc1a0ccdb77620bb912f22 assets/testmod/blockstates/black_opal_ore.json
 d8ace4393b185845f75d60e166e7f826ac38fdf5 assets/testmod/blockstates/black_opal_pressure_plate.json
@@ -34,6 +35,8 @@ c3fe3c9aaa52623d88a2a2c17af60eae9f6fdd49 assets/testmod/models/block/black_opal_
 8d91a6b4e9955972dccf42f66c15eed6c57fdff3 assets/testmod/models/block/black_opal_fence_gate_wall_open.json
 96c9003d1aab36957eb3709bfe5c7ac64485a4dc assets/testmod/models/block/black_opal_fence_post.json
 bdbf967efe27a63c6e8f6a584060e5d6ea568680 assets/testmod/models/block/black_opal_fence_side.json
+e8f17bd488370355d1e9f7dfc3682291dc41eb9e assets/testmod/models/block/black_opal_lamp_off.json
+16c69a587442109e974eefc55461588baf896e60 assets/testmod/models/block/black_opal_lamp_on.json
 e9549f01ffae78bbacd1c8ed860ba7374b66cf02 assets/testmod/models/block/black_opal_nether_ore.json
 18a8dbc239037e61b94281aaa62d289cc3ed858e assets/testmod/models/block/black_opal_ore.json
 4ec566ef50243e3fc8cfce2ecb2aff276a082f3d assets/testmod/models/block/black_opal_pressure_plate.json
@@ -55,6 +58,7 @@ f9009bcd4ec42987f038eac7a5b3625c860f8f58 assets/testmod/models/block/black_opal_
 2b954da66b417657795eb05669bc7515a7741623 assets/testmod/models/item/black_opal_deepslate_ore.json
 1a34ea897f112aa6b6b5a427cd97e45d04fb1db8 assets/testmod/models/item/black_opal_end_ore.json
 126bd231950ce9c12e70b40e4cd22fa22d45ef76 assets/testmod/models/item/black_opal_fence_gate.json
+d6e0d9590be489a60553ffa7b6a2cdcd3cbed74d assets/testmod/models/item/black_opal_lamp.json
 1b1b1e0d6834c600090507e4cfa42d8adc29dfc4 assets/testmod/models/item/black_opal_nether_ore.json
 7927340227921985f786a0f281b3ceea07a21a08 assets/testmod/models/item/black_opal_ore.json
 c85b5ea22ba8d7f25dd4ad6e381d8e608a6f7cb7 assets/testmod/models/item/black_opal_pressure_plate.json

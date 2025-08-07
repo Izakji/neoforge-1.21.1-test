@@ -21,6 +21,7 @@
   "block.testmod.black_opal_wall": "Black Opal Wall",
   "block.testmod.black_opal_door": "Black Opal Door",
   "block.testmod.black_opal_trapdoor": "Black Opal Trapdoor",
+  "block.testmod.black_opal_lamp": "Black Opal Lamp",
   "item.testmod.example_item": "Example Item",
   "item.testmod.bismuth": "Bismuth",
   "item.testmod.raw_bismuth": "Raw Bismuth",
@@ -41,6 +42,10 @@
   "item.testmod.black_opal_leggings": "Black Opal Leggings",
   "item.testmod.black_opal_boots": "Black Opal Boots",
   "item.testmod.black_opal_horse_armor": "Black Opal Horse Armor",
+  "item.testmod.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
+  "item.testmod.metal_detector": "Metal Detector",
+  "item.testmod.data_tablet": "Data Tablet",
+  "item.testmod.metal_detector.no_valuables": "No valuables found",
   "tooltip.testmod.chainsaw.tooltip.shift": "Press §eShift§r fro more information!",
   "tooltip.testmod.chainsaw.tooltip.1": "This chainsaw is awesome and will cut down trees!",
   "tooltip.testmod.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
@@ -53,5 +58,7 @@
   "testmod.configuration.items": "Item List",
   "testmod.configuration.logDirtBlock": "Log Dirt Block",
   "testmod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "testmod.configuration.magicNumber": "Magic Number"
+  "testmod.configuration.magicNumber": "Magic Number",
+  "trim_pattern.testmod.kaupen": "KaupenArmor Trim",
+  "trim_material.testmod.black_opal": "Black Opal Material"
 }

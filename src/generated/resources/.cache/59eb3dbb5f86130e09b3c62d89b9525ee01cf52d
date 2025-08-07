@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-04T22:10:05.6342295	Loot Tables
+// 1.21.1	2025-08-07T11:35:00.664583	Loot Tables
 959683f52545d2126026c90a4890f5ce01970fa1 data/testmod/loot_table/blocks/black_opal_block.json
 aff5e22862c1f3954438a437406ea573938251ee data/testmod/loot_table/blocks/black_opal_button.json
 fe437e46ec924642525c1f1b5b7c77c06b306dfa data/testmod/loot_table/blocks/black_opal_deepslate_ore.json
@@ -6,6 +6,7 @@ fe437e46ec924642525c1f1b5b7c77c06b306dfa data/testmod/loot_table/blocks/black_op
 4ff15a931120ff117930cf7ae5d49efef17a4480 data/testmod/loot_table/blocks/black_opal_end_ore.json
 284ec54deb033fa8268fd62b087a552e0fcf4518 data/testmod/loot_table/blocks/black_opal_fence.json
 c843bfb45362df3dc0cbc71ad62fe6ee6e9ebe43 data/testmod/loot_table/blocks/black_opal_fence_gate.json
+ab302d34d2b83a555d54938e317429a65ca4dad6 data/testmod/loot_table/blocks/black_opal_lamp.json
 d3d27852ebe2f9b84d0bdf0688ad0f64c77749f2 data/testmod/loot_table/blocks/black_opal_nether_ore.json
 2d30da750775d0fc5543dd9b6535ab79e8f543f4 data/testmod/loot_table/blocks/black_opal_ore.json
 3cec390780c9a600fc4dbc0adc4e034edfb5b0fd data/testmod/loot_table/blocks/black_opal_pressure_plate.json

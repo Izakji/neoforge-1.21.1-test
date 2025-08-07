@@ -38,6 +38,9 @@ public class TestModCreativeModeTabs {
                         output.accept(ModItems.BLACK_OPAL_LEGGINGS);
                         output.accept(ModItems.BLACK_OPAL_BOOTS);
                         output.accept(ModItems.BLACK_OPAL_HORSE_ARMOR);
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE);
+                        output.accept(ModItems.DATA_TABLET);
+                        output.accept(ModItems.METAL_DETECTOR);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TABS =
@@ -62,6 +65,7 @@ public class TestModCreativeModeTabs {
                         output.accept(ModBlocks.BLACK_OPAL_WALL);
                         output.accept(ModBlocks.BLACK_OPAL_DOOR);
                         output.accept(ModBlocks.BLACK_OPAL_TRAPDOOR);
+                        output.accept(ModBlocks.BLACK_OPAL_LAMP);
                     }).build());
 
 

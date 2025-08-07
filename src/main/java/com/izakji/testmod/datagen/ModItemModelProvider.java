@@ -52,11 +52,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BLACK_OPAL_CHESTPLATE.get());
         basicItem(ModItems.BLACK_OPAL_LEGGINGS.get());
         basicItem(ModItems.BLACK_OPAL_BOOTS.get());
+        basicItem(ModItems.METAL_DETECTOR.get());
+        basicItem(ModItems.DATA_TABLET.get());
+
         buttonItem(ModBlocks.BLACK_OPAL_BUTTON, ModBlocks.BLACK_OPAL_BLOCK);
+
         fenceItem(ModBlocks.BLACK_OPAL_FENCE, ModBlocks.BLACK_OPAL_BLOCK);
         wallItem(ModBlocks.BLACK_OPAL_WALL, ModBlocks.BLACK_OPAL_BLOCK);
         basicItem(ModBlocks.BLACK_OPAL_DOOR.asItem());
         basicItem(ModItems.BLACK_OPAL_HORSE_ARMOR.get());
+        basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
 
         handheldItem(ModItems.BLACK_OPAL_SWORD);
         handheldItem(ModItems.BLACK_OPAL_PICKAXE);
