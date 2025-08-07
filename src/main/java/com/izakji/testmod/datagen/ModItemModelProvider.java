@@ -53,7 +53,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BLACK_OPAL_LEGGINGS.get());
         basicItem(ModItems.BLACK_OPAL_BOOTS.get());
         basicItem(ModItems.METAL_DETECTOR.get());
-        basicItem(ModItems.DATA_TABLET.get());
+        //basicItem(ModItems.DATA_TABLET.get());
 
         buttonItem(ModBlocks.BLACK_OPAL_BUTTON, ModBlocks.BLACK_OPAL_BLOCK);
 

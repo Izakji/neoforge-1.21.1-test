@@ -1,5 +1,6 @@
 package com.izakji.testmod;
 
+import com.izakji.testmod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -27,5 +28,6 @@ public class TestModClient {
         // Some client setup code
         TestMod.LOGGER.info("HELLO FROM CLIENT SETUP");
         TestMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        ModItemProperties.addCustomItemProperties();
     }
 }
