@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-10T20:05:11.6529576	Loot Tables
+// 1.21.1	2025-08-10T20:26:26.2568888	Loot Tables
 959683f52545d2126026c90a4890f5ce01970fa1 data/testmod/loot_table/blocks/black_opal_block.json
 aff5e22862c1f3954438a437406ea573938251ee data/testmod/loot_table/blocks/black_opal_button.json
 fe437e46ec924642525c1f1b5b7c77c06b306dfa data/testmod/loot_table/blocks/black_opal_deepslate_ore.json
@@ -14,6 +14,7 @@ bdb7d7d30fc9ebdf7359f31dd6580cd30d76c10b data/testmod/loot_table/blocks/black_op
 2b9233e002129dec85788f3eca628c2c74c4ef9f data/testmod/loot_table/blocks/black_opal_stairs.json
 38a79d985d861aef3541b64246cf0d4d47334083 data/testmod/loot_table/blocks/black_opal_trapdoor.json
 522e4605f6015ec98641981d710da67852d8e653 data/testmod/loot_table/blocks/black_opal_wall.json
+4219ec961488a0f4f0fb0f37f8460e2d114474de data/testmod/loot_table/blocks/colored_leaves.json
 61e3e8f2c8dfe3faa10b926e2715427fdfac8ea3 data/testmod/loot_table/blocks/magic_block.json
 3288d2f0a7e812f5e24020bd9664e1c19e65e7db data/testmod/loot_table/blocks/petunia.json
 c06304128da6c0a812d0f427923e9d0025fd2f89 data/testmod/loot_table/blocks/potted_petunia.json

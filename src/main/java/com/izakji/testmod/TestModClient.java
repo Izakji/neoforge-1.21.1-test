@@ -1,13 +1,17 @@
 package com.izakji.testmod;
 
+import com.izakji.testmod.block.ModBlocks;
 import com.izakji.testmod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.BiomeColors;
+import net.minecraft.world.level.FoliageColor;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
@@ -29,5 +33,16 @@ public class TestModClient {
         TestMod.LOGGER.info("HELLO FROM CLIENT SETUP");
         TestMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         ModItemProperties.addCustomItemProperties();
+    }
+
+    @SubscribeEvent
+    public static void registerColoredBlocks(RegisterColorHandlersEvent.Block event) {
+        event.register((state, level, pos, tintIndex) -> level != null &&
+                pos != null ? BiomeColors.getAverageFoliageColor(level, pos) : FoliageColor.getDefaultColor(), ModBlocks.COLORED_LEAVES.get());
+    }
+
+    @SubscribeEvent
+    public static void registerColoredItems(RegisterColorHandlersEvent.Item event) {
+        event.register((stack, tintIndex) -> FoliageColor.getDefaultColor(), ModBlocks.COLORED_LEAVES);
     }
 }

@@ -69,6 +69,7 @@ public class TestModCreativeModeTabs {
                         output.accept(ModBlocks.BLACK_OPAL_TRAPDOOR);
                         output.accept(ModBlocks.BLACK_OPAL_LAMP);
                         output.accept(ModBlocks.PETUNIA);
+                        output.accept(ModBlocks.COLORED_LEAVES);
                     }).build());
 
 

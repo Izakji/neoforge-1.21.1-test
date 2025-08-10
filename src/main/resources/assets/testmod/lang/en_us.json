@@ -25,6 +25,7 @@
   "block.testmod.tomato_crop": "Tomato Crop",
   "block.testmod.petunia": "Petunia",
   "block.testmod.potted_petunia": "Potted Petunia",
+  "block.testmod.colored_leaves": "Colored Leaves",
   "item.testmod.example_item": "Example Item",
   "item.testmod.bismuth": "Bismuth",
   "item.testmod.raw_bismuth": "Raw Bismuth",
