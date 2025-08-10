@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-07T14:58:33.5469641	Item Models: testmod
+// 1.21.1	2025-08-10T19:18:08.3024541	Item Models: testmod
 01ea1273c1ec94ff0e1d88222bde3056228d07d2 assets/testmod/models/item/black_opal.json
 c4cfe5669a98f78a4e561bd33dd760c57e0f970f assets/testmod/models/item/black_opal_axe.json
 2619a8a3a9531846b940e889ca84a8224dcd41d9 assets/testmod/models/item/black_opal_boots.json
@@ -57,9 +57,9 @@ e93feecde95aab45323ba7084843f203f38d25c0 assets/testmod/models/item/black_opal_p
 313d2838b3f766bc0f6f036f965e2e92a3c74613 assets/testmod/models/item/black_opal_sword.json
 dc841b6ded2a5775f35ccaffeda1a7930029dabe assets/testmod/models/item/black_opal_wall.json
 ab338556827a861d00bc942179d86e886b8788ba assets/testmod/models/item/chainsaw.json
-426f27c1af71fe73bde34378d32e00d75f3b8f29 assets/testmod/models/item/data_tablet.json
 b1b77c87db2bd012d2fe67607345096569f5eeb8 assets/testmod/models/item/frostfire_ice.json
 7fa086972e218439580110d19c5ad1e18d620901 assets/testmod/models/item/kaupen_armor_trim_smithing_template.json
 d89ed460e9c5a6a8a06b154ab143e4a5a06307a4 assets/testmod/models/item/metal_detector.json
 429ee3eb285aa3512d162cd99a30a05aa0e41cff assets/testmod/models/item/raw_black_opal.json
 90d67030c8ec710b988b919bfa71c3e9c5fc9e6b assets/testmod/models/item/tomato.json
+de2a457f6d9eff42746197f988aca60a4942f26f assets/testmod/models/item/tomato_seeds.json

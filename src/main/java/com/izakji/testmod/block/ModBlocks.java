@@ -3,6 +3,7 @@ package com.izakji.testmod.block;
 import com.izakji.testmod.TestMod;
 import com.izakji.testmod.block.custom.BlackOpalLampBlock;
 import com.izakji.testmod.block.custom.MagicBlock;
+import com.izakji.testmod.block.custom.TomatoCropBlock;
 import com.izakji.testmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -73,6 +74,9 @@ public class ModBlocks {
             () -> new BlackOpalLampBlock(BlockBehaviour.Properties.of().strength(3f)
                     .sound(SoundType.GLASS)
                     .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(BlackOpalLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final DeferredBlock<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
+            () -> new TomatoCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
 
 
     private static <T extends Block>DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

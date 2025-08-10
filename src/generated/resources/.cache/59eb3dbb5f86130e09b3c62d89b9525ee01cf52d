@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-07T11:35:00.664583	Loot Tables
+// 1.21.1	2025-08-10T19:18:08.2984355	Loot Tables
 959683f52545d2126026c90a4890f5ce01970fa1 data/testmod/loot_table/blocks/black_opal_block.json
 aff5e22862c1f3954438a437406ea573938251ee data/testmod/loot_table/blocks/black_opal_button.json
 fe437e46ec924642525c1f1b5b7c77c06b306dfa data/testmod/loot_table/blocks/black_opal_deepslate_ore.json
@@ -16,3 +16,4 @@ bdb7d7d30fc9ebdf7359f31dd6580cd30d76c10b data/testmod/loot_table/blocks/black_op
 522e4605f6015ec98641981d710da67852d8e653 data/testmod/loot_table/blocks/black_opal_wall.json
 61e3e8f2c8dfe3faa10b926e2715427fdfac8ea3 data/testmod/loot_table/blocks/magic_block.json
 d14ad695de3c3861f92c645c993d7aeef9d8eb4c data/testmod/loot_table/blocks/raw_black_opal_block.json
+3c61e948d4f003b2deb998f96bc6ac2698327218 data/testmod/loot_table/blocks/tomato_crop.json
