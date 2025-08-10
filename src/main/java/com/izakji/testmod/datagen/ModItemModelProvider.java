@@ -75,6 +75,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.BLACK_OPAL_CHESTPLATE);
         trimmedArmorItem(ModItems.BLACK_OPAL_LEGGINGS);
         trimmedArmorItem(ModItems.BLACK_OPAL_BOOTS);
+
+        flowerItem(ModBlocks.PETUNIA);
     }
 
     // Shoutout to El_Redstoniano for making this
@@ -121,6 +123,12 @@ public class ModItemModelProvider extends ItemModelProvider {
                                         "item/" + itemDeferredItem.getId().getPath()));
             });
         }
+    }
+
+    public void flowerItem(DeferredBlock<Block> block) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("item/generated"))
+                .texture("layer0", ResourceLocation.fromNamespaceAndPath(TestMod.MOD_ID,
+                        "block/" + block.getId().getPath()));
     }
 
     public void buttonItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {

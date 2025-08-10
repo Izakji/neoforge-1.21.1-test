@@ -42,6 +42,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BLACK_OPAL_WALL.get());
         dropSelf(ModBlocks.BLACK_OPAL_TRAPDOOR.get());
         dropSelf(ModBlocks.BLACK_OPAL_LAMP.get());
+        dropSelf(ModBlocks.PETUNIA.get());
+
+        this.add(ModBlocks.POTTED_PETUNIA.get(), createPotFlowerItemTable(ModBlocks.PETUNIA));
 
         this.add(ModBlocks.BLACK_OPAL_ORE.get(),
                 block -> createOreDrop(ModBlocks.BLACK_OPAL_ORE.get(), ModItems.RAW_BLACK_OPAL.get()));

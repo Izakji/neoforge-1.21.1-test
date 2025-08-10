@@ -7,6 +7,8 @@ import com.izakji.testmod.item.ModItems;
 import com.izakji.testmod.item.TestModCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -55,7 +57,9 @@ public class TestMod {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.PETUNIA.getId(), ModBlocks.POTTED_PETUNIA);
+        });
     }
 
     // Add the example block com.izakji.testmod.item to the building blocks tab

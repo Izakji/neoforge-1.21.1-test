@@ -23,6 +23,8 @@
   "block.testmod.black_opal_trapdoor": "Black Opal Trapdoor",
   "block.testmod.black_opal_lamp": "Black Opal Lamp",
   "block.testmod.tomato_crop": "Tomato Crop",
+  "block.testmod.petunia": "Petunia",
+  "block.testmod.potted_petunia": "Potted Petunia",
   "item.testmod.example_item": "Example Item",
   "item.testmod.bismuth": "Bismuth",
   "item.testmod.raw_bismuth": "Raw Bismuth",
